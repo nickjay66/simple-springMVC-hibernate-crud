@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="web-customer-tracker:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_customer_tracker_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring Web Services-2.0.2" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring Integration-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring Webflow-2.4.0" />
+          <element id="library" level="project" name="Spring Security-5.2.1" />
+          <element id="library" level="project" name="Spring Batch-2.2.6" />
+          <element id="library" level="project" name="Spring Data JPA-2.2.4.RELEASE" />
+          <element id="library" level="project" name="lib (2)" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="project" name="lib (2)" />
+    </root>
+  </artifact>
+</component>
